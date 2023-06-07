@@ -1,0 +1,87 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.center {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  margin-right: center;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.menu {
+  display: flex;
+  margin-left: auto;
+  align-self: flex-start;
+}
+
+.menu a {
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 80px; 
+}
+
+.produto {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 30%;
+  text-align: center;
+}
+
+.produto img {
+  width: 100%;
+  max-width: 100%;
+
+}
+
+.camisetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}

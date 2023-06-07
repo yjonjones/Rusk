@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+  
+  main {
+    height: 100vh;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .logo {
+    margin-right: 0;
+    margin-bottom: 10px;
+    
+  }
+  .logo img {
+    height: 50px;
+  }
+  
+  .menu {
+    display: flex;
+    margin-left: 20px;
+    align-self: flex-start;
+    
+  }
+  
+  .menu a {
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.items {
+    align-items: flex-end;
+}
+
+.select-images {
+    max-width: 400px;
+    margin-top: 80px; 
+}
+
+.select-images img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 400px;
+    gap: 5px;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.right-side {
+    width: 100%;
+}
+
+.right-side h6{
+    font-size: larger;
+}
+.right-side button {
+  background-color: #adadad; /* Cor de fundo do botão */
+  border: none; /* Remover a borda */
+  color: #ff0000; /* Cor do texto do botão */
+  padding: 10px 20px; /* Espaçamento interno */
+  text-align: center; /* Centralizar o texto */
+  text-decoration: none; /* Remover sublinhado do texto */
+  display: inline-block; /* Exibir como um bloco */
+  font-size: 16px; /* Tamanho da fonte */
+  margin: 4px 2px; /* Margem externa */
+  cursor: not-allowed; /* Cursor desabilitado */
+}
